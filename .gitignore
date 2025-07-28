@@ -1,7 +1,3 @@
-# Ignore Python practice files
-functions-demo.py
-functions-challange.py
-variables_demo.py
-loops-demo.py
-debugging_practice.py
-my_intro.py
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+venv/ 
