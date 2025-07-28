@@ -19,3 +19,8 @@ https://github.com/davidbgk/open-source-template/
 https://realpython.com/readme-python-project/
 https://docs.python.org/3/library/venv.html 
 https://medium.com/@sim30217/pip-freeze-requirements-txt-993eb433ab0b
+https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository 
+https://gist.github.com/nicolasdao/a7adda51f2f185e8d2700e1573d8a633
+
+
+
