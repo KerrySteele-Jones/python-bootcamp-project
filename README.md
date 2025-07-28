@@ -10,6 +10,8 @@
 - Created a list for Licences (following W3C)
 - Planned and implemented prompt questions: define a **define a list of questions** and hand them to **prompt** [prompt returns a list of **answers**] (pypi.org)
     💻 using dictionaries in W3C to test
+- Testing questions showed up an error that my version of Python would not work with PyInquirer, moved to InquirePy - change my queston syntax to name = inquirer.text(message="What's your name:").execute() (https://inquirerpy.readthedocs.io/en/latest/)
+
 
 
 
@@ -27,6 +29,6 @@ https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-f
 https://gist.github.com/nicolasdao/a7adda51f2f185e8d2700e1573d8a633
 https://www.w3schools.com/python/python_lists.asp
 https://docs.python.org/3/library/venv.html
-
+https://inquirerpy.readthedocs.io/en/latest/
 
 

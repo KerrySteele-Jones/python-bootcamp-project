@@ -1,49 +1,18 @@
-from PyInquirer import prompt
+from InquirerPy import inquirer
 from generator.choose_license import licenseList
 
-questions = [
-{
-'type': 'input',
-'name': 'project_title',
-'message': 'What is the title of the project',
-},
-{
-'type': 'input',
-'name': 'description',
-'message': 'Give a short description of your project',
-},
-{
-'type': 'input',
-'name': 'features',
-'message': 'What are the features',
-},
-{
-'type': 'input',
-'name': 'installation_instructions',
-'message': 'What are the installation instructions',
-},
-{
-'type': 'input',
-'name': 'usage',
-'message': 'How should the project be used',
-},
-{
-'type': 'list',
-'name': 'license',
-'message': 'Choose a license',
-"choices": licenseList
-},
-{
-'type': 'input',
-'name': 'author',
-'message': 'Who is the Author',
-},
-{
-'type': 'input',
-'name': 'contact_information',
-'message': 'What is the contact information for the Author of the project',
-},
-]
 
 def ask_questions():
-    return prompt(questions)
+    project_title = inquirer.text(message="What is the title of the project").execute()
+    description = inquirer.text(message="Give a short description of your project").execute()
+    features = inquirer.text(message="What are the featurest").execute()
+    install_intructions = inquirer.text(message="What are the installation instructions").execute()
+    usage = inquirer.text(message="How should the project be use").execute()
+    choose_license = inquirer.select(
+        message="Choose a license",
+        choices=["MIT License", "Apache License", "GPL License", "BSD-2-Clause", "BSD-3-Clause", "BSD-4-Clause"],
+    ).execute()
+    author = inquirer.text(message="Who is the Author").execute()
+    contact_information = inquirer.text(message="What is the contact information for the Author of the project").execute()
+
+
