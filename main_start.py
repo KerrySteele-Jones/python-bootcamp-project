@@ -7,8 +7,26 @@ def main():
     ## Project Title 
     {answers["project_title"]}
 
-    ## Description \n
+    ## Description 
     {answers["description"]} 
+
+    ## Features
+    {answers["features"]} 
+
+    ## Installation Instructions
+    {answers["install"]} 
+
+    ## Usage
+    {answers["usage"]} 
+
+    ## License
+    {answers["license"]} 
+
+    ## Author
+    {answers["author"]}
+
+    ## Contact Information
+    {answers["contact_information"]}
 
     """
     print(read_me)
