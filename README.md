@@ -3,6 +3,8 @@
 ## Description
 The project is a python-powered README file generator,created as part of a bootcamp assignment.  It uses terminal prompts to collect project information and then outputs a README.md ready to upload to GitHub.
 
+View walkthrough on YouTube here 👉 https://youtu.be/E41n5RPQpDg
+
 ## Message to teacher ✏️✏️✏️
 The app saves a file called "READTask.md" just so it does not overwrite the README.md file created for this assignment.  If used again it would save as READ.md. 
 
