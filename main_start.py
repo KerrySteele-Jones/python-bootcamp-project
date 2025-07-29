@@ -5,28 +5,28 @@ def main():
     answers =ask_questions()
 
     read_me = f"""
-    ## Project Title 
+    ## 📝 Project Title 
     {answers["project_title"]}
 
-    ## Description 
+    ## 💡 Description 
     {answers["description"]} 
 
-    ## Features
+    ## 🔧 Features
     {answers["features"]} 
 
-    ## Installation Instructions
+    ## 💾 Installation Instructions
     {answers["install"]} 
 
-    ## Usage
+    ## ▶️ Usage
     {answers["usage"]} 
 
-    ## License
+    ## 📄 License
     {answers["license"]} 
 
-    ## Author
+    ## 👤 Author
     {answers["author"]}
 
-    ## Contact Information
+    ## ✉️ Contact Information
     {answers["contact_information"]}
 
     """

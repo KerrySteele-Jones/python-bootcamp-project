@@ -1,8 +1,17 @@
 ## Python Week 6 README.md file
 
-## Message to teacher ✏️✏️✏️
-The app saves a file called "READTask.me" just so it does not overwrite the READ.me file created for this assignment.  If used again it would save as READ.me. 
+## Description
+The project is a python-powered README file generator,created as part of a bootcamp assignment.  It uses terminal prompts to collect project information and then outputs a README.md ready to upload to GitHub.
 
+## Message to teacher ✏️✏️✏️
+The app saves a file called "READTask.md" just so it does not overwrite the README.md file created for this assignment.  If used again it would save as READ.md. 
+
+## Features
+📋 Interactive command-line prompts using InquirerPy
+💾 Automatically creates or overwrites a README.md file based on user input
+
+## Installation Instructions
+In the terminal run python3 main_start.py
 
 ## Notes to remember what I did for this assignment
 
@@ -14,11 +23,11 @@ The app saves a file called "READTask.me" just so it does not overwrite the READ
 - Planned and implemented prompt questions: define a **define a list of questions** and hand them to **prompt** [prompt returns a list of **answers**] (pypi.org)
     💻 using dictionaries in W3C to test
 - Testing questions showed up an error that my version of Python would not work with PyInquirer, moved to InquirePy - change my queston syntax to name = inquirer.text(message="What's your name:").execute() (https://inquirerpy.readthedocs.io/en/latest/)
+- used a fstring to pull in and write all the headings and titles for the readme file.
+- created a function that uses file write.
+- imported the file write function into main_start.py and added write.file at the end to make it! 
 
-
-
-
-
+I DID A THING 🎉🤪
 
 ## Useful links that helped with assignment
 https://pypi.org/project/PyInquirer/
@@ -36,3 +45,8 @@ https://inquirerpy.readthedocs.io/en/latest/
 https://www.w3schools.com/python/python_file_write.asp 
 
 
+## Author
+Kerry Steele-Jones
+
+## Contact 
+kerry@createxr.co.uk | www.createxr.co.uk
