@@ -1,4 +1,5 @@
 from generator.prompt_questions import ask_questions
+from generator.save_to_file import write_file
 
 def main():
     answers =ask_questions()
@@ -29,7 +30,7 @@ def main():
     {answers["contact_information"]}
 
     """
-    print(read_me)
+    write_file(read_me)
     
 if __name__ == "__main__":
     main()

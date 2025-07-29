@@ -1,5 +1,8 @@
 ## Python Week 6 README.md file
 
+## Message to teacher ✏️✏️✏️
+The app saves a file called "READTask.me" just so it does not overwrite the READ.me file created for this assignment.  If used again it would save as READ.me. 
+
 
 ## Notes to remember what I did for this assignment
 
@@ -30,5 +33,6 @@ https://gist.github.com/nicolasdao/a7adda51f2f185e8d2700e1573d8a633
 https://www.w3schools.com/python/python_lists.asp
 https://docs.python.org/3/library/venv.html
 https://inquirerpy.readthedocs.io/en/latest/
+https://www.w3schools.com/python/python_file_write.asp 
 
 
